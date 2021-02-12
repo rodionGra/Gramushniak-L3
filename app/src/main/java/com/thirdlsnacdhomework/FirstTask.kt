@@ -30,7 +30,7 @@ Fun run over all elements of the array and check if there is already such an ele
 If it is not there, we put in the map a Pair <this element, 1> (he met for the first time).
 If it already was, then by the key of this element we increase the number of repetitions by 1.
 */
-fun <K> maxCountRepetitions(arr: Collection<K>): Map<K, Int> {
+fun <K, C : Collection<K>> maxCountRepetitions(arr: C): Map<K, Int> {
 
     val result = HashMap<K, Int>()
 
