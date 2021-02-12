@@ -12,11 +12,13 @@ fun main() {
     val someArray = intArrayOf(1, 1, 2, 2, 2, 3, 4, 5, 6, 7, 8)
 
     println("The number that is repeated most often =  "
-            + someArray.groupBy { it }.maxBy { it.value.size }?.key + "\n\n")
+            + someArray.groupBy { it }.maxBy { it.value.size }?.key + "\n\n"
+    )
 
 
     // There can be several numbers that are repeated the same maximum times
-    val list = mutableListOf<String>("a", "b", "b", "b", "c", "c", "d", "d", "d", "e", "e", "g", "g", "g")
+    val list =
+        mutableListOf<String>("a", "b", "b", "b", "c", "c", "d", "d", "d", "e", "e", "g", "g", "g")
     println(list)
 
     val map = maxCountRepetitions(list)   //key is element of list, value is count of repetitions
