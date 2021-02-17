@@ -15,7 +15,6 @@ fun main() {
             + someArray.groupBy { it }.maxBy { it.value.size }?.key + "\n\n"
     )
 
-
     // There can be several numbers that are repeated the same maximum times
     val list =
         mutableListOf<String>("a", "b", "b", "b", "c", "c", "d", "d", "d", "e", "e", "g", "g", "g")
