@@ -17,7 +17,7 @@ fun main() {
 
     // There can be several numbers that are repeated the same maximum times
     val list =
-        mutableListOf<String>("a", "b", "b", "b", "c", "c", "d", "d", "d", "e", "e", "g", "g", "g")
+        mutableListOf("a", "b", "b", "b", "c", "c", "d", "d", "d", "e", "e", "g", "g", "g")
     println(list)
 
     val map = maxCountRepetitions(list)   //key is element of list, value is count of repetitions
