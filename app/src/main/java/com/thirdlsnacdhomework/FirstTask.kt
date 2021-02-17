@@ -1,7 +1,7 @@
 package com.thirdlsnacdhomework
 
 /**
- *  Rodion Gramushniak
+ *  Wroteby Rodion Gramushniak
  *
  *  There is a list, some elements of which are repeated several times.
  *  Find the items that are repeated most often.
