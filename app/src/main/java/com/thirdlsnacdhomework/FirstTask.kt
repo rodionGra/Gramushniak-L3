@@ -5,6 +5,9 @@ package com.thirdlsnacdhomework
  *
  *  There is a list, some elements of which are repeated several times.
  *  Find the items that are repeated most often.
+ *
+ *  some text for commit on new branch
+ *
  **/
 
 fun main() {
