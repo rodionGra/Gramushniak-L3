@@ -12,7 +12,7 @@ package com.thirdlsnacdhomework
 
 fun main() {
     // If the number of repetitions is unique (only 2 occurs three times)
-    val someArray = intArrayOf(1, 1, 2, 2, 2, 3, 4, 5)
+    val someArray = intArrayOf(1, 1, 2, 2, 2, 3, 4, 5, 5, 89, 65, 2)
 
     println("The number that is repeated most often =  "
             + someArray.groupBy { it }.maxBy { it.value.size }?.key + "\n\n"
